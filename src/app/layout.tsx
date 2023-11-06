@@ -18,11 +18,13 @@ export default function RootLayout({
 }) {
   return (
 <div>
-<TopNavBar></TopNavBar>
-<SideNavBar></SideNavBar>
+<div>
+  <TopNavBar></TopNavBar>
+</div>
+<div className='flex'>
+  <SideNavBar></SideNavBar>
   <body className={inter.className}>{children}</body>
 </div>
-  
-
+</div> 
   )
 }

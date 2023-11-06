@@ -52,25 +52,6 @@ const SideNavBar = () => {
                   />
                 </div>
                 </Link>
-                <Link href={'/dashboard'}>
-                <div className={`mt-[35px] pl-[6.5px] pt-[6.5px] pr-[7.5px] pb-[7.5px] border-2 border-[#E655271A] bg-[#E655271A] rounded-[6px] ${isMenuItemActive(`/dashboard`)? "block": "hidden"}`}>
-                  <Image
-                     src={dashboardIconTwo}
-                     alt="menuOneIcon"
-                     width="22"
-                     height="22"
-                  />
-                </div>
-                <div className={`mt-[35px] pl-[6.5px] !text-emerald-500 pt-[6.5px] pr-[7.5px] pb-[7.5px] bg-[#1010100D] border-2 border-[#10101000] hover:border-[#E655271A] hover:bg-[#E655271A] rounded-[6px] duration-300 ${isMenuItemActive(`/dashboard`)? "hidden": "block"}`}>
-                  <Image
-                  className=' !text-emerald-500'
-                     src={dashboardIconOne}
-                     alt="menuOneIcon"
-                     width="22"
-                     height="22"  
-                  />
-                </div>
-                </Link>
              </div>
         </div>
     );
